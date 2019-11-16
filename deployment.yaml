@@ -12,7 +12,7 @@ spec:
         app: shipping-service
     spec:
       containers:
-      - image: uk.icr.io/lab-cnb/shipping-service-XX
+      - image: us.icr.io/bootcamp1/shipping-service-bootcamp:3
         name: shipping-service
         ports:
         - name: app-port
